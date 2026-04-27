@@ -1,0 +1,67 @@
+# Outils Claude / Codex
+/.claude
+/.codex
+
+# Editeurs / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Nix
+result
+result-*
+.direnv/
+.envrc.local
+
+# Secrets / credentials
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*authkey*
+*auth-key*
+*auth_key*
+secrets/
+.secrets/
+.env
+.env.*
+!.env.example
+
+# Kubernetes / k3s
+kubeconfig
+*.kubeconfig
+.kube/
+
+# Terraform / OpenTofu (au cas où)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+
+# Ansible (au cas où)
+*.retry
+inventory.local
+
+# Logs / dumps
+*.log
+nohup.out
+core.*
+
+# Build artefacts éventuels
+dist/
+build/
+__pycache__/
+*.pyc
+node_modules/
+
+*.pub
