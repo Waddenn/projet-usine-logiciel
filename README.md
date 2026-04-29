@@ -1,6 +1,6 @@
-# projet-etude — Cluster k3s GitOps sur Proxmox
+# Projet fil rouge — Cluster k3s GitOps sur Proxmox
 
-Projet d'études M1 DevOps : déploiement reproductible et déclaratif d'un cluster
+Projet fil rouge : déploiement reproductible et déclaratif d'un cluster
 Kubernetes 3 nœuds (k3s) sur des VMs Proxmox, géré end-to-end avec NixOS,
 ArgoCD (GitOps), sops-nix (secrets) et Tailscale (accès distant).
 
